@@ -19,6 +19,7 @@
     [self createBingXingAsyncABC];
 
 }
+//测试提交
 //串行同步
 -(void)createABC{
     dispatch_queue_t queueSeriod = dispatch_queue_create("Seriod", DISPATCH_QUEUE_SERIAL);
