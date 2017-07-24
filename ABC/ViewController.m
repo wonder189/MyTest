@@ -34,6 +34,7 @@
             NSLog(@"%@---%d C",[NSThread currentThread],i);
         });
     }
+    NSLog(@"测试1 ---第一次提交");
 }
 //串行异步
 -(void)createAsyncABC{
